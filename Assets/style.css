@@ -170,23 +170,23 @@
   /* Portfolio image links */
 
   .google {
-    background-image: url('./../Images/google-update.jpeg');
+    background-image: url('./Images/google-update.jpeg');
   }
 
   .facebook {
-    background-image: url('./../Images/street.png');
+    background-image: url('./Images/street.png');
   }
 
   .amazon {
-    background-image: url('./../Images/road.jpeg');
+    background-image: url('./Images/road.jpeg');
   }
 
   .linkedin {
-    background-image: url('./../Images/sky.jpeg');
+    background-image: url('./Images/sky.jpeg');
   }
 
   .start-up {
-    background-image: url('./../Images/coding-image.jpeg');
+    background-image: url('./Images/coding-image.jpeg');
   }
 
   /* Contact me section */
@@ -209,3 +209,12 @@
     text-decoration: none;
     color: var(--text-color);
   }
+
+  /* Footer */
+
+  footer {
+    background-color: var(--primary-color);
+    padding: 40px;
+    justify-content: space-between;
+  }
+
