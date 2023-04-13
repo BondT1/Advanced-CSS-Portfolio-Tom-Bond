@@ -6,3 +6,15 @@
     --background-color: #EDEDF5;
     --text-color: #485873;
   }
+ 
+  * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+
+  body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: var(--font-family);
+  }
