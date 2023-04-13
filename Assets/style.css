@@ -155,3 +155,14 @@
   section#work .content .overlay:hover {
     background-color: transparent;
   }
+
+  section#work .content a.card .work-label {
+    line-height: 1.8em;
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+    padding: 20px;
+    height: fit-content;
+    position: relative;
+    bottom: 40px;
+    width: auto;
+  }
