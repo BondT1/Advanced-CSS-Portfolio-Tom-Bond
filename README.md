@@ -21,7 +21,9 @@ The code to create this project consists of:
 - CSS Background positions 
 - Media queries and responses 
 
-The deployed website can be viewed through this link
+The deployed website can be viewed through this link - 
+
+https://bondt1.github.io/Advanced-CSS-Portfolio-Tom-Bond/
 
 ## Installation
 
