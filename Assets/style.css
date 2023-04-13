@@ -245,31 +245,39 @@
     section#contact-me .content ul {
       font-size: 1.2em;
     }
+  } 
 
-    @media only screen and (max-width: 839px) {
-      /* Allow wrap on smallest screens e.g phones */
-  
-      header {
-        padding: 10px 10px 10px 0;
-        flex-wrap: wrap;
-      }
-  
-      header h1 {
-        align-self: flex-start;
-      }
-  
-      header nav {
-        flex-direction: column;
-        width: 100%;
-        padding-left: 10px;
-      }
-  
-      header nav ul {
-        margin-top: 20px;
-      }
-  
-      header nav ul li {
-        margin-left: 10px;
-      }
+  @media only screen and (max-width: 839px) {
+    /* Allow wrap on smallest screens e.g phones */
+
+    header {
+      padding: 10px 10px 10px 0;
+      flex-wrap: wrap;
+    }
+
+    header h1 {
+      align-self: flex-start;
+    }
+
+    header nav {
+      flex-direction: column;
+      width: 100%;
+      padding-left: 10px;
+    }
+
+    header nav ul {
+      margin-top: 20px;
+    }
+
+    header nav ul li {
+      margin-left: 10px;
+    }
+
+    header nav ul li a {
+      font-size: 1em;
+      padding: 0 10px 5px 10px;
+      border-bottom: 2px solid var(--secondary-color);
+    }
+
+    
   }
-}
